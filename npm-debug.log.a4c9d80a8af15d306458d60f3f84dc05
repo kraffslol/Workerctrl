@@ -1,0 +1,118 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'notify-send' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /var/www/workerctrl/package.json
+5 verbose installManyTop reading scoped package data from /var/www/workerctrl/node_modules/bootstrap-sass/package.json
+6 verbose installManyTop reading scoped package data from /var/www/workerctrl/node_modules/gulp/package.json
+7 verbose installManyTop reading scoped package data from /var/www/workerctrl/node_modules/laravel-elixir/package.json
+8 verbose installManyTop reading scoped package data from /var/www/workerctrl/node_modules/laravel-elixir-livereload/package.json
+9 verbose readDependencies loading dependencies from /var/www/workerctrl/package.json
+10 silly cache add args [ 'notify-send', null ]
+11 verbose cache add spec notify-send
+12 silly cache add parsed spec { raw: 'notify-send',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'notify-send',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: '*',
+12 silly cache add   type: 'range' }
+13 silly addNamed notify-send@*
+14 verbose addNamed "*" is a valid semver range for notify-send
+15 silly addNameRange { name: 'notify-send', range: '*', hasData: false }
+16 silly mapToRegistry name notify-send
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/notify-send
+20 verbose addNameRange registry:https://registry.npmjs.org/notify-send not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/notify-send
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 7:25:37 AM
+24 verbose request id 6a181dbf48e8b036
+25 verbose etag "DRKVKW6STYIGF72CIC6YLK8DW"
+26 http request GET https://registry.npmjs.org/notify-send
+27 http 304 https://registry.npmjs.org/notify-send
+28 silly get cb [ 304,
+28 silly get   { date: 'Tue, 14 Jul 2015 07:25:37 GMT',
+28 silly get     via: '1.1 varnish',
+28 silly get     'cache-control': 'max-age=60',
+28 silly get     etag: '"DRKVKW6STYIGF72CIC6YLK8DW"',
+28 silly get     age: '0',
+28 silly get     connection: 'keep-alive',
+28 silly get     'x-served-by': 'cache-fra1234-FRA',
+28 silly get     'x-cache': 'MISS',
+28 silly get     'x-cache-hits': '0',
+28 silly get     'x-timer': 'S1436858737.714054,VS0,VE166',
+28 silly get     vary: 'Accept' } ]
+29 verbose etag https://registry.npmjs.org/notify-send from cache
+30 verbose get saving notify-send to /home/vagrant/.npm/registry.npmjs.org/notify-send/.cache.json
+31 silly addNameRange number 2 { name: 'notify-send', range: '*', hasData: true }
+32 silly addNameRange versions [ 'notify-send', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+33 silly addNamed notify-send@0.1.2
+34 verbose addNamed "0.1.2" is a plain semver version for notify-send
+35 silly cache afterAdd notify-send@0.1.2
+36 verbose afterAdd /home/vagrant/.npm/notify-send/0.1.2/package/package.json not in flight; writing
+37 verbose afterAdd /home/vagrant/.npm/notify-send/0.1.2/package/package.json written
+38 silly install resolved [ { author:
+38 silly install resolved      { name: 'Brian Noguchi',
+38 silly install resolved        email: 'brian.noguchi@gmail.com',
+38 silly install resolved        url: 'https://github.com/bnoguchi' },
+38 silly install resolved     name: 'notify-send',
+38 silly install resolved     description: 'Ubuntu growl-like notifications for node.js',
+38 silly install resolved     version: '0.1.2',
+38 silly install resolved     homepage: 'https://github.com/bnoguchi/node-notify-send',
+38 silly install resolved     repository:
+38 silly install resolved      { type: 'git',
+38 silly install resolved        url: 'git://github.com/bnoguchi/node-notify-send.git' },
+38 silly install resolved     main: './lib/notify-send.js',
+38 silly install resolved     scripts: { test: 'make test' },
+38 silly install resolved     engines: { node: '>=0.4.0' },
+38 silly install resolved     dependencies: {},
+38 silly install resolved     devDependencies: {},
+38 silly install resolved     _npmJsonOpts:
+38 silly install resolved      { file: '/home/briannoguchi/.npm/notify-send/0.1.2/package/package.json',
+38 silly install resolved        wscript: false,
+38 silly install resolved        contributors: false,
+38 silly install resolved        serverjs: false },
+38 silly install resolved     _id: 'notify-send@0.1.2',
+38 silly install resolved     _engineSupported: true,
+38 silly install resolved     _npmVersion: '1.0.18',
+38 silly install resolved     _nodeVersion: 'v0.4.9',
+38 silly install resolved     _defaultsLoaded: true,
+38 silly install resolved     dist:
+38 silly install resolved      { shasum: '23c197bb1ea34805d6d9a77e61b40fd76e1bb80a',
+38 silly install resolved        tarball: 'http://registry.npmjs.org/notify-send/-/notify-send-0.1.2.tgz' },
+38 silly install resolved     directories: {},
+38 silly install resolved     _shasum: '23c197bb1ea34805d6d9a77e61b40fd76e1bb80a',
+38 silly install resolved     _resolved: 'https://registry.npmjs.org/notify-send/-/notify-send-0.1.2.tgz',
+38 silly install resolved     _from: 'notify-send@*',
+38 silly install resolved     bugs: { url: 'https://github.com/bnoguchi/node-notify-send/issues' },
+38 silly install resolved     readme: 'ERROR: No README data found!' } ]
+39 info install notify-send@0.1.2 into /var/www/workerctrl
+40 info installOne notify-send@0.1.2
+41 verbose installOne of notify-send to /var/www/workerctrl not in flight; installing
+42 warn locking Error: EACCES, open '/home/vagrant/.npm/_locks/notify-send-5f44a82da589b511.lock'
+42 warn locking     at Error (native)
+42 warn locking  /home/vagrant/.npm/_locks/notify-send-5f44a82da589b511.lock failed { [Error: EACCES, open '/home/vagrant/.npm/_locks/notify-send-5f44a82da589b511.lock']
+42 warn locking   errno: -13,
+42 warn locking   code: 'EACCES',
+42 warn locking   path: '/home/vagrant/.npm/_locks/notify-send-5f44a82da589b511.lock' }
+43 verbose stack Error: Attempt to unlock /var/www/workerctrl/node_modules/notify-send, which hasn't been locked
+43 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+43 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1017:5)
+43 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1021:20
+43 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+43 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+43 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+43 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+44 verbose cwd /var/www/workerctrl
+45 error Linux 3.13.0-32-generic
+46 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "notify-send"
+47 error node v0.12.7
+48 error npm  v2.11.3
+49 error Attempt to unlock /var/www/workerctrl/node_modules/notify-send, which hasn't been locked
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]

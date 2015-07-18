@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('worker', 'WorkerController',
+                ['only' => ['index', 'store', 'destroy']]);
+Route::get('hosts', 'WorkerController@listByHostname');

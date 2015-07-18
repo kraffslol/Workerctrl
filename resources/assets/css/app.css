@@ -1,0 +1,38 @@
+#content {
+  padding-top: 30px; }
+
+table {
+  table-layout: fixed; }
+
+.TableBox {
+  background: #F2F2F2;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px 1px #999999; }
+
+.TableBox h1 {
+  color: #5D646C; }
+
+.btn-orange {
+  color: #fff;
+  background-color: #F15822; }
+
+.btn-green {
+  background-color: #91C46B;
+  color: #53863D; }
+
+.example-enter {
+  opacity: 0.01;
+  transition: opacity 0.5s ease-in; }
+
+.example-enter.example-enter-active {
+  opacity: 1; }
+
+.example-leave {
+  opacity: 1;
+  transition: opacity 0.5s ease-in; }
+
+.example-leave.example-leave-active {
+  opacity: 0.01; }
+
+/*# sourceMappingURL=app.css.map */
